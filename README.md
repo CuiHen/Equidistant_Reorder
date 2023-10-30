@@ -65,3 +65,8 @@ You can configure the run via following command line arguments:
 
 
 
+# Citation
+This implementation was used for the following paper:
+
+> To be published: H. Cui, A. Margraf, and J. Hähner, “Equidistant reorder operator for cartesian genetic programming,” in Proceedings of the 14th International Joint Conference on Computational Intelligence (IJCCI 2023) - ECTA, INSTICC, SciTePress, 2023.
+
