@@ -191,4 +191,8 @@ impl Chromosome {
             };
         }
     }
+
+    pub fn reorder(&mut self) {
+        return;
+    }
 }
