@@ -66,11 +66,22 @@ impl Runner {
     }
 
     pub fn learn_step(&mut self) {
+        self.reorder();
+        
         self.mutate_chromosomes();
 
         self.eval_chromosomes();
 
         self.new_parent_by_neutral_search();
+    }
+
+    fn reorder(&mut self) {
+        for i in 0..(self.params.mu + self.params.lambda) {
+            // if self.parent_ids.contains(&i) {
+            //     continue;
+            // }
+            self.chromosomes[i].reorder();
+        }
     }
 
     fn new_parent_by_neutral_search(&mut self) {
