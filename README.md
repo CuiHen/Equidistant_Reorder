@@ -1,3 +1,5 @@
+From: ![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fdoi.org%2F10.5220%2F0012174100003595-https%3A%2F%2Fdoi.org%2F10.5220%2F0012174100003595-blue?label=DOI&link=https%3A%2F%2Fdoi.org%2F10.1145%2F3594805.3607130)
+
 # E-Reorder
 Code and Benchmarks for Equidistant Reorder Operator for CGP
 
